@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Funnel Display", sans-serif;
+    font-weight: 500;
 }
 
 body{
@@ -122,9 +123,8 @@ html{
     padding: 40px 20px;
 }
 
-.subtitulo{
+.eventos h3{
     color: red;
-    margin-bottom: 40px;
     font-weight: 700;
 }
 
@@ -137,8 +137,8 @@ html{
 
 .card{
     position: relative;
-    width: 350px;
-    height: 200px;
+    width: 35%;
+    height: 350px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -184,11 +184,24 @@ html{
 }
 
 .aviso{
-    background: red;
-    color: white;
-    padding: 20px;
+    background: #333;
+    padding: 10px;
+}
+
+.aviso p{
+    color: #fafafa;
     text-align: center;
-    font-weight: bold;
+    font-family: "Birthstone", cursive;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.aviso p span{
+    color: #8aa76b;
+    text-align: center;
+    font-family: "Birthstone", cursive;
+    font-weight: 500;
+    font-size: 35px;
 }
 
 /* Heros */
@@ -226,6 +239,10 @@ html{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.hero-inner h4{
+    font-weight: 700;
 }
 
 /* Cards fiestas */
@@ -537,6 +554,14 @@ i.fas{
     font-weight: 700;
     color: #fafafa;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.qr-info h3 span{
+    color: #8aa76b;
+}
+
+.qr-info a{
+    text-decoration: none;
 }
 
 /* Footer */
