@@ -176,11 +176,11 @@ html{
 }
 
 .card.classic::before{
-    background-image: url("../assets/img/cards/classic-casual.jpg");
+    background-image: url("../assets/img/cards/classic-casual.png");
 }
 
 .card.pizza::before{
-    background-image: url("../assets/img/cards/pizza-party.jpg");
+    background-image: url("../assets/img/cards/pizza-party.png");
 }
 
 .aviso{
@@ -353,6 +353,40 @@ html{
     transform: scale(1.01);
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     transition: all 0.2s;
+}
+
+/* Kava Experience */
+.kava{
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.kava a{
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.kava img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.kava a:hover{
+    transform: scale(1.01);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+}
+
+.kava a:hover img{
+    transform: scale(1.01);
 }
 
 /* Seccion formulario, info e iframe */
