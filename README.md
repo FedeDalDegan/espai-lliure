@@ -10,7 +10,7 @@
 - Galería de fotos del salón y eventos anteriores.
 - Formulario de reserva y consulta.
 - Ubicación y cómo visitarnos.
-- Diseño responsive (en progreso.)
+- Diseño responsive
 
 ---
 
@@ -32,4 +32,3 @@ Para dudas o consultas, contactar a través del correo: federiconahueldaldegan@h
 ## Copyright
 
 © 2025 Espai Lliure. Todos los derechos reservados.
-
