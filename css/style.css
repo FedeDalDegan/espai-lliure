@@ -589,7 +589,7 @@ i.fas{
 .hero-section{
     position: relative;
     background: url('../assets/img/banner-hero.png') center/cover no-repeat;
-    height: 350px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
